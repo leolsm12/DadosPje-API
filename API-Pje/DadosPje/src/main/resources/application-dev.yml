@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/judicial_db
+    username: postgres
+    password: 123
+  jpa:
+    show-sql: true
+    open-in-view: false
+    hibernate:
+      ddl-auto: create #validate / update / creat / creat-drop
+    properties:
+      hibernate:
+        format_sql: true
